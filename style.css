@@ -1,6 +1,11 @@
+
+
+/* ---------- google fonts ---------- */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
 
 
+
+/* ---------- common css ---------- */
 *{
     margin: 0;
     padding: 0;
@@ -10,12 +15,12 @@
 .container{
     padding: 10px 30px;
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 1100px;
     border: 1px solid red;
-
 }
 
 
+/* ---------- header menu ---------- */
 #header{
     /* border: 1px solid; */
     display: flex;
@@ -42,6 +47,103 @@
     text-decoration: none;
     
 }
+
+/* ---------- landing page ---------- */
+.landing_description{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.landing_description h1{
+    font-size: 64px;
+    margin: 30px 0;
+
+    line-height: 60px;
+    
+}
+#landing_page div{
+    text-align: center;
+}
+#landing_page div button{
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF900E;
+    cursor: pointer;
+}
+.landing_img img{
+    width: 100%;
+}
+
+
+
+
+
+/* ---------- section : features ---------- */
+#features{
+    display: flex;
+}
+#features div{
+    width: 50%;
+}
+.feature_imgs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.feature_imgs img{
+    width: 100%;
+    padding: 10px;
+}
+.feature_des{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 20px;
+    
+}
+.feature_des h2{
+    font-size: 45px;
+}
+
+.feature_des h2 span:nth-child(1){
+    font-size: 45px;
+    font-weight: 500;
+    color: rgb(150, 149, 149);
+}
+
+.feature_des h2 span:nth-child(2){
+    color: #FF900E;
+}
+.feature_des p{
+    color: rgb(78, 78, 78);
+}
+.feature_des button{
+    width: 150px;
+    padding: 15px 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #FF900E;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+
+/* ---------- header menu ---------- */
+/* ---------- header menu ---------- */
+/* ---------- header menu ---------- */
+/* ---------- header menu ---------- */
+/* ---------- header menu ---------- */
+/* ---------- header menu ---------- */
+/* ---------- header menu ---------- */
+
 
 
 
