@@ -1,0 +1,51 @@
+@media screen and (max-width : 500px) {
+    .container{
+        padding: 10px 10px;
+    }
+
+
+    #header{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    #header > nav ul li {
+
+        padding: 5px;
+    }
+
+    #landing_page { 
+        display: flex;
+        flex-direction: column-reverse;
+      } 
+.landing_description h1{
+    font-size: 1.75rem;
+    margin: 20px 0;
+    line-height: 39px;
+}
+
+
+#features {
+    
+    flex-direction: column;
+  }
+  #features div{
+    width: 100%;
+  }
+
+  #enjoy_lovely_features {
+    grid-template-columns: 1fr;
+  }
+
+  .fact_child:nth-child(2) {
+    grid-template-columns: 1fr;
+    padding: 0 30px;
+  }
+
+
+  .sponsor_child:nth-child(2) {
+    
+    flex-direction:column;
+  }
+
+}

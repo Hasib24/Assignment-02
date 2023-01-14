@@ -20,6 +20,7 @@
 }
 .section_header{
     font-size: 45px;
+    color: #30302f;
 }
 
 
@@ -64,6 +65,7 @@
     margin: 30px 0;
 
     line-height: 60px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
     
 }
 #landing_page div{
@@ -160,8 +162,12 @@
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
 }
 .lovely_c_box h2{
+    color: #3f3f3e;
     font-size: 20px;
     font-weight: 600;
+}
+.lovely_c_box p{
+    color: #50504e;
 }
 
 
@@ -177,6 +183,21 @@
 .lovely_feature_child img{
     width: 100%;
 }
+.lovely_feature_child{
+    position: relative;
+}
+.experience_teg{
+    position: absolute;
+    /* border: 1px solid; */
+    border-radius: 5px;
+    left: 0;
+    bottom: -20px;
+    padding: 20px;
+    color: #fff;
+    background-color: #FF900E;
+    text-align: center;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
 
 /* ---------- section : some facts ---------- */
 #some_facts{
@@ -187,16 +208,25 @@
 .fact_child:nth-child(2){
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 0 50px;
+    padding: 0 70px;
     
 }
 .fact_child_box{
-    border: 1px solid;
+    /* border: 1px solid rgba(0, 0, 0, 0.2); */
     border-radius: 5px;
     margin: 20px 10px;
     padding: 30px 0;
     text-align: center;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
 }
+
+.fact_child_box:hover{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+    
+}
+
+
 .fact_child_box img{
     margin: 10px;
 }
