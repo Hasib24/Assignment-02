@@ -30,6 +30,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
+}
+#header h1{
+    cursor: pointer;
 }
 
 
@@ -283,11 +287,15 @@
 #sponspors{
     padding: 50px 0;
 }
-
+.sponsor_child{
+    text-align: center;
+    
+}
 
 .sponsor_child:nth-child(2){
     display: flex;
     padding: 0 20px;
+    margin-top: 50px;
 }
 
 .sponsor_child:nth-child(2) img{
@@ -389,6 +397,9 @@
 
 
 /* ---------- section : footer ---------- */
+#footer{
+    margin: 50px auto ;
+}
 #footer .container{
     padding: 5px;
     text-align: center;
