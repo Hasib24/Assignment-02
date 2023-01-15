@@ -1,6 +1,9 @@
 @media screen and (max-width : 500px) {
     .container{
-        padding: 10px 10px;
+        padding: 10px 20px;
+    }
+    .section_header{
+      font-size: 40px;
     }
 
 
@@ -25,9 +28,12 @@
 }
 
 
-#features {
+  #features {
     
     flex-direction: column;
+  }
+  .feature_imgs{
+    grid-template-columns: 1fr;
   }
   #features div{
     width: 100%;
@@ -48,4 +54,13 @@
     flex-direction:column;
   }
 
+
+
+  .contact_content{
+    display: flex;
+    flex-direction: column-reverse;
+    
+    /* border: 1px solid; */
+    /* margin-top: 40px; */
+  }
 }

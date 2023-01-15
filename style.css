@@ -148,6 +148,16 @@
 
 .lovely_child_des{
     margin: 20px 0;
+    position: relative;
+}
+.lovely_child_des>h1::before{
+    position: absolute;
+    content: "";
+    background-color: #FF900E;
+    height: 90px;
+    width: 8px;
+    left: -10px;
+    top: 10px;
 }
 
 
@@ -190,8 +200,8 @@
     position: absolute;
     /* border: 1px solid; */
     border-radius: 5px;
-    left: 0;
-    bottom: -20px;
+    left: 25%;
+    bottom: 50px;
     padding: 20px;
     color: #fff;
     background-color: #FF900E;
@@ -244,10 +254,11 @@
 
 .sponsor_child:nth-child(2){
     display: flex;
+    padding: 0 20px;
 }
 
 .sponsor_child:nth-child(2) img{
-    margin: 10px;
+    /* margin: 10px; */
     padding: 25px;
     width: 75%;
     /* border: 1px solid; */
@@ -255,6 +266,47 @@
 }
 
 
+
+
+
+/* ---------- section : contact us ---------- */
+
+.contact_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* border: 1px solid; */
+    /* margin-top: 40px; */
+}
+.contact_form{
+    margin-top: 40px;
+}
+
+.contact_form input, .contact_form textarea{
+    display: block;
+    outline: none;
+    /* margin: 10px 0px 10px 10px; */
+    border: 1px solid #FF900E ;
+    border-radius: 5px;
+    padding: 10px;
+    width: 80%;
+    margin: 10px auto;
+    
+}
+.contact_form input[type="submit"]{
+    width: 150px;
+    margin: 10px 50px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.contact_img img{
+    width: 100%;
+}
 
 
 
